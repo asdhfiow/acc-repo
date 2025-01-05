@@ -1,0 +1,31 @@
+body {  
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;        
+    background-position: center center;
+}
+
+
+.accordion {
+    width: 500px;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.accordion-trigger {
+    margin: 0px;
+    padding: 10px;
+    display: block;
+    background: #333;
+    color: #FFF;
+    border-top: 1px solid hsl(0, 0%, 100%);
+}
+.accordion-contents {
+    margin: 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
+    color: rgb(20, 57, 27);
+} 
