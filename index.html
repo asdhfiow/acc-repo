@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>クラスとインスタンス</title>
+    <link rel="stylesheet" href="accordion.css">
+</head>
+    <body background ="image.png">
+    <div class="accordion" id="js-faq">
+        <p href=""  class="accordion-trigger">
+            Q1.クラスとは何ですか
+        </p href="">
+        <div class="accordion-contents">
+            A1.プログラムを作成するための設計図みたいなものです
+        </div>
+        <p href="" class="accordion-trigger">
+            Q2.インスタンスとは何ですか
+        </p href="">
+        <div class="accordion-contents">
+            A2.クラスをもとに作成されたプログラムです
+        </div>
+    </div>
+    <div class="accordion" id="js-accordion-good">
+        <a style="text-decoration:none;"  class="accordion-trigger">
+            Q3.インスタンス化とは何ですか
+        </a style="text-decoration:none;">
+        <div class="accordion-contents">
+            A3.クラス（設計図）からインスタンス（もの）を作ることです
+        </div>
+        <a style="text-decoration:none;" class="accordion-trigger">
+            Q4.まとめてくれませんか
+        </a style="text-decoration:none;">
+        <div class="accordion-contents">
+            A4.クラス（設計図）→インスタンス（クラスをもとに作成されたプログラム）
+            <p>例）</p>
+                <p>「車」（設計図）→ 軽自動車（インスタンス）</p>
+                <p>「車」（設計図）→ ワゴン車（インスタンス</p>
+            <p>
+                <h3>『注意点』</h3>
+                <p>クラスは単なる設計図のため、クラス単体では動作しない
+                    クラスをもとに、実物（インスタンス）を作成することで、初めて機能する</p>
+            </p>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="accordion" id="js-accordion-bad">
+        <dd href=""  class="accordion-trigger">
+            Q5.クラス（設計図）の構成要素は何ですか
+        </dd href="">
+        <div class="accordion-contents">
+            A5.
+            <li>
+                プロパティ：インスタンスが持つ「情報」のこと
+            </li>
+            <li>
+                メソッド：インスタンスが持つ処理のまとまり
+            </li>
+        </div>
+        <dd href="" class="accordion-trigger">
+            Q6.継承とは何ですか
+        </dd href="">
+        <div class="accordion-contents">
+            A6.別クラスから機能を引き継いで使うことです。
+            <br>クラスの継承元を「スーパークラス」「親クラス」
+            <br>継承されたものを「サブクラス」「小クラス」
+
+        </div>
+    </div>
+    <div class="accordion" id="js-not-bad-accordion">
+        <dt href=""  class="accordion-trigger">
+            Q7.オーバーライドとは何ですか
+        </dt href="">
+        <div class="accordion-contents">
+            A7.スーパークラス（親クラス）のメソッドをサブクラス（小クラス）で上書きすることです
+            <h3>注意点</h3>
+            <li>引数の数や順番を同じにする</li>
+            <li>戻り値は同じ型とする</li>
+        </div>
+    </div>
+    <script src="accordion.js"></script>
+</body>
+</html>
